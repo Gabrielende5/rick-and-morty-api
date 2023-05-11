@@ -1,0 +1,36 @@
+:root{
+    --background-color: black;
+
+}
+
+#navbar
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 20px;
+    background-color: var(--background-color);
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+}
+#navbar-image{
+    position: absolute;
+    right: 50px;
+    border-radius: 50%;
+    width: 48px;
+}
+.links-navbar{
+    color: greenyellow;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+@media (max-width: 600px) {
+    #navbar{
+        flex-direction: row-reverse;
+    }
+    #navbar-image{
+        left: 50px;
+    }
+}
