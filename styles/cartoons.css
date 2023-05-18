@@ -6,8 +6,13 @@
     align-items: center;
 }
 #cartoonsList div{
-    width: 368px;
+    width: 30%;
     height: 560px;
     background-color: aqua;
     margin-top: 60px;
+}
+.imageCard {
+    width: 250px;
+    
+
 }
