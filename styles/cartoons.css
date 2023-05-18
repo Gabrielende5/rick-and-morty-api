@@ -1,0 +1,13 @@
+#cartoonsList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#cartoonsList div{
+    width: 368px;
+    height: 560px;
+    background-color: aqua;
+    margin-top: 60px;
+}
