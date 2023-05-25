@@ -1,0 +1,38 @@
+#navbar-animation
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 20px;
+    background-color: black;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+#navbar-image-animation{
+    right: 50px;
+    border-radius: 50%;
+    width: 48px;
+}
+.links-navbar-animation{
+    color: greenyellow;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+#nome-na-navbar-animation{
+    color: white;
+    font-size: 1.8rem;
+    margin-right: 4px;
+
+}
+#info-navbar-animation{
+    position: fixed;
+    right: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}

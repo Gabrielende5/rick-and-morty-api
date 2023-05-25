@@ -2,8 +2,9 @@ const navbar = document.getElementById("navbar")
 const checkNavName = localStorage.getItem('nome')
 navbar.innerHTML = `
     <div>
-    <a class="links-navbar" href="./index.html">Home</a>
-    <a class="links-navbar" href="./cartoons.html">Cartoons</a>
+    <a class="links-navbar-animation" href="./index.html">Home</a>
+    <a class="links-navbar-animation" href="./cartoons.html">Cartoons</a>
+    <a class="links-navbar-animation" href="./cartoons.html">Cartoons</a>
     </div>
     <div id="info-navbar">
         <div id = "nome-navbar"><p id ="nome-na-navbar">${checkNavName}</p></div>

@@ -1,17 +1,17 @@
-#cartoonsList{
+#animationList
+{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
-#cartoonsList div{
+#animationList div{
     width: 30%;
     height: 560px;
     background-color: aqua;
     margin-top: 60px;
-    border-radius: 20px;
 }
-.imageCard {
+.imageAnimation{
     width: 250px;
 }
